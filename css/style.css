@@ -49,6 +49,11 @@ button:focus {
   background-color: var(--ocean);
   color: var(--white);
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Типографія */
 h1,
@@ -124,7 +129,7 @@ p {
   justify-content: center; /* ← Якщо треба вертикальне центрування */
   text-align: center;
   background-color: #2e2f42;
-  width: 100%;
+  padding: 180px 0;
 }
 .hero-title {
   text-align: center;
@@ -132,7 +137,6 @@ p {
   margin-bottom: 48px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .hero-title .line {
   display: block; /* кожен рядок окремо */
@@ -270,7 +274,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  width: calc((100% - 72px) / 4);
   margin: 0 auto;
   border-radius: 0 0 4px 4px;
 }
@@ -302,11 +306,12 @@ p {
   margin: 0;
 }
 .portfolio-list li {
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  border-bottom: 1px solid #ddd;
 }
 .portfolio-title {
   display: flex;
@@ -327,10 +332,9 @@ p {
   width: 100%;
 }
 .footer-info {
-  width: 230px;
-  height: 200px;
-  padding-left: 20px;
-  padding-top: 32px;
+  .footer-info {
+    padding: 32px 20px;
+  }
 }
 .page-footer .logo {
   font-family: Raleway, sans-serif;
