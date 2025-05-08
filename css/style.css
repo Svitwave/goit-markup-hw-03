@@ -182,17 +182,17 @@ p {
   color: #404bbf;
 }
 
-.nav-bar {
+/* .nav-bar {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
   padding-left: 32px;
-}
+} */
 .nav-list {
   display: inline-flex;
-  flex-direction: row;
+
   justify-content: flex-start;
   gap: 40px;
   line-height: 1.5;
@@ -211,26 +211,13 @@ p {
   gap: 40px;
 }
 .address-list {
-  display: flex;
-  flex-direction: row;
-  padding-left: 400px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   gap: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-}
-
-/* Портфоліо */
-.portfolio-section {
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* Контакти */
@@ -273,9 +260,9 @@ p {
 .features-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
   margin: 0 auto;
+  padding: 0 5px 0 5px;
   border-radius: 0 0 4px 4px;
 }
 .feature-title {
@@ -296,6 +283,33 @@ p {
   letter-spacing: 0.02em;
   padding: 0px 0px 32px 0px;
 }
+
+/* Портфоліо */
+.portfolio-section {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-left: 15px;
+}
+.portfolio-title {
+  font-family: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+/* .portfolio-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 0px 0px 32px 0px;
+} */
 .portfolio-list {
   display: flex;
   flex-wrap: wrap; /* ← Щоб переходило на наступний ряд */
@@ -313,18 +327,6 @@ p {
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
-.portfolio-title {
-  display: flex;
-  justify-content: center;
-}
-.portfolio-text {
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 0px 0px 32px 0px;
-}
 
 /* футер */
 .page-footer {
@@ -332,9 +334,7 @@ p {
   width: 100%;
 }
 .footer-info {
-  .footer-info {
-    padding: 32px 20px;
-  }
+  padding: 32px 20px;
 }
 .page-footer .logo {
   font-family: Raleway, sans-serif;
