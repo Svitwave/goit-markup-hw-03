@@ -1,0 +1,351 @@
+:root {
+  --white: #ffffff;
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Інтерактивні елементи */
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/* Типографія */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--navyblue);
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+/* Кнопки */
+.button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+
+  gap: 10px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+  color: #ffffff;
+}
+/* Секції */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ← Центрує по горизонталі */
+  justify-content: center; /* ← Якщо треба вертикальне центрування */
+  text-align: center;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 48px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-title .line {
+  display: block; /* кожен рядок окремо */
+}
+
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo:hover,
+.logo:focus {
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  border-bottom: 1px solid var(--cornflower);
+  width: 1440px;
+  height: 72px;
+}
+
+/* Навігація */
+.nav-link {
+  display: block;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px; /*?????*/
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding-left: 32px;
+}
+.nav-list {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* Адреса */
+.address {
+  font-style: normal;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 400px;
+  gap: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* Портфоліо */
+.portfolio-section {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Контакти */
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+/* Команда */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+/* Картка команди */
+.team-card {
+  background-color: #ffffff;
+}
+.features-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1128px;
+  height: 104px;
+  margin: 0 auto;
+  border-radius: 0 0 4px 4px;
+}
+.feature-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.feature-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 0px 0px 32px 0px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap; /* ← Щоб переходило на наступний ряд */
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-list li {
+  width: 360px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.portfolio-title {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 0px 0px 32px 0px;
+}
+
+/* футер */
+.page-footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  padding: auto;
+}
+.footer-info {
+  width: 264px;
+  height: 112px;
+  padding-left: 20px;
+  padding-top: 32px;
+}
+.page-footer .logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #4d5ae5;
+}
+
+.page-footer .logo-studio {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
