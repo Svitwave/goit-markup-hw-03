@@ -5,6 +5,14 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -116,8 +124,7 @@ p {
   justify-content: center; /* ← Якщо треба вертикальне центрування */
   text-align: center;
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  width: 100%;
 }
 .hero-title {
   text-align: center;
@@ -152,10 +159,8 @@ p {
 .page-header {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  width: 100%;
   border-bottom: 1px solid var(--cornflower);
-  width: 1440px;
-  height: 72px;
 }
 
 /* Навігація */
@@ -265,8 +270,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 1128px;
-  height: 104px;
+
   margin: 0 auto;
   border-radius: 0 0 4px 4px;
 }
@@ -320,13 +324,11 @@ p {
 /* футер */
 .page-footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  padding: auto;
+  width: 100%;
 }
 .footer-info {
-  width: 264px;
-  height: 112px;
+  width: 230px;
+  height: 200px;
   padding-left: 20px;
   padding-top: 32px;
 }
