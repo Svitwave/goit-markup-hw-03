@@ -171,7 +171,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1158px;
+  /* width: 1158px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
