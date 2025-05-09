@@ -100,6 +100,9 @@ p {
   letter-spacing: 0.04em;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  min-width: 169px;
+  height: 156px;
 }
 
 .button:hover,
@@ -129,7 +132,7 @@ p {
   justify-content: center; /* ← Якщо треба вертикальне центрування */
   text-align: center;
   background-color: #2e2f42;
-  padding: 180px 0;
+  padding: 188px 0;
 }
 .hero-title {
   text-align: center;
@@ -137,6 +140,7 @@ p {
   margin-bottom: 48px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .hero-title .line {
   display: block; /* кожен рядок окремо */
@@ -151,6 +155,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo:hover,
 .logo:focus {
@@ -160,16 +165,18 @@ p {
   color: #2e2f42;
 }
 
-.page-header {
+.page-header .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 1158px;
   border-bottom: 1px solid var(--cornflower);
 }
 
 /* Навігація */
 .nav-link {
-  display: block;
+  display: flex;
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   font-size: 16px; /*?????*/
@@ -233,15 +240,28 @@ p {
 }
 /* Команда */
 .team-section {
+  padding: 120px;
   background-color: #f4f4fd;
 }
 .team-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 40px;
+  gap: 24px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.team-card-first-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.name-team {
+  padding: 32px 0;
+}
+
+.features-section {
+  padding: 120px 0;
 }
 
 .section-title {
@@ -251,6 +271,19 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
+  margin-bottom: 72px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0); /* приховує елемент */
+  overflow: hidden;
+  white-space: nowrap; /* запобігає переносу */
 }
 
 /* Картка команди */
@@ -260,11 +293,15 @@ p {
 .features-list {
   display: flex;
   flex-direction: row;
-  /* width: calc((100% - 72px) / 4); */
   margin: 0 auto;
   padding: 0 5px 0 5px;
   border-radius: 0 0 4px 4px;
+  gap: 24px;
 }
+.feature-item-first-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .feature-title {
   display: flex;
   justify-content: center;
@@ -273,11 +310,13 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 
 .feature-text {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -289,6 +328,8 @@ p {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -301,15 +342,14 @@ p {
   font-family: 16px;
   font-weight: 400;
   padding-left: 15px;
+  margin-bottom: 72px;
 }
-/* .portfolio-text {
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 0px 0px 32px 0px;
-} */
+portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap; /* ← Щоб переходило на наступний ряд */
@@ -318,6 +358,7 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+  row-gap: 48px;
 }
 .portfolio-list li {
   width: calc((100% - 48px) / 3);
@@ -332,6 +373,7 @@ p {
 .page-footer {
   background-color: #2e2f42;
   width: 100%;
+  padding: 100px 0;
 }
 .footer-info {
   padding: 32px 20px;
@@ -345,6 +387,7 @@ p {
   font-weight: 700;
   margin-bottom: 16px;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .page-footer .logo-studio {

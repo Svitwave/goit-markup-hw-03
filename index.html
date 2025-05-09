@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <title>WebStudio</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -68,32 +64,32 @@
         </div>
       </section>
 
-      <section>
+      <section class="features-section">
         <div class="container">
-          <h2>Our Features</h2>
+          <h2 class="visually-hidden">Our Features</h2>
           <ul class="features-list">
-            <li>
+            <li class="feature-item-first-item">
               <h3 class="feature-title">Strategy</h3>
               <p class="feature-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="feature-item-first-item">
               <h3 class="feature-title">Punctuality</h3>
               <p class="feature-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="feature-item-first-item">
               <h3 class="feature-title">Diligence</h3>
               <p class="feature-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="feature-item-first-item">
               <h3 class="feature-title">Technologies</h3>
               <p class="feature-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -108,19 +104,24 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
-            <li class="team-card">
+            <li class="team-card-first-card">
               <img
                 src="./images/MarkGuerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
               />
-              <h3 class="feature-title">Mark Guerrero</h3>
-              <p class="feature-text">Product Designer</p>
+              <div class="name-team">
+                <h3 class="feature-title">Mark Guerrero</h3>
+                <p class="feature-text">Product Designer</p>
+              </div>
             </li>
+
             <li class="team-card">
               <img src="./images/TomFord.jpg" alt="Tom Ford" width="264" />
-              <h3 class="feature-title">Tom Ford</h3>
-              <p class="feature-text">Frontend Developer</p>
+              <div class="name-team">
+                <h3 class="feature-title">Tom Ford</h3>
+                <p class="feature-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -128,8 +129,10 @@
                 alt="Camila Garcia"
                 width="264"
               />
-              <h3 class="feature-title">Camila Garcia</h3>
-              <p class="feature-text">Marketing</p>
+              <div class="name-team">
+                <h3 class="feature-title">Camila Garcia</h3>
+                <p class="feature-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -137,8 +140,10 @@
                 alt="Daniel Wilson"
                 width="264"
               />
-              <h3 class="feature-title">Daniel Wilson</h3>
-              <p class="feature-text">UI Designer</p>
+              <div class="name-team">
+                <h3 class="feature-title">Daniel Wilson</h3>
+                <p class="feature-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -154,8 +159,10 @@
                 alt="banking-app"
                 width="360"
               />
-              <h3 class="portfolio-title">Banking App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title-first">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li>
               <img
@@ -163,8 +170,10 @@
                 alt="cashless-payment"
                 width="360"
               />
-              <h3 class="portfolio-title">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -172,8 +181,10 @@
                 alt="meditation-app"
                 width="360"
               />
-              <h3 class="portfolio-title">Meditation App</h3>
-              <p class="portfolio-text">App</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
             </li>
             <li>
               <img
@@ -181,8 +192,10 @@
                 alt="taxi-service"
                 width="360"
               />
-              <h3 class="portfolio-title">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -190,8 +203,10 @@
                 alt="screen-illustrations"
                 width="360"
               />
-              <h3 class="portfolio-title">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
             </li>
             <li>
               <img
@@ -199,8 +214,10 @@
                 alt="online-courses"
                 width="360"
               />
-              <h3 class="portfolio-title">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
+              <div class="portfolio-div">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -208,14 +225,16 @@
     </main>
 
     <footer class="page-footer">
-      <div class="footer-info">
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+      <div class="container">
+        <div class="footer-info">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
