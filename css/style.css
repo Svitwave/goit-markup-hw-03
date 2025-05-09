@@ -172,6 +172,9 @@ p {
   justify-content: space-between;
   align-items: center;
   /* width: 1158px; */
+  /* border-bottom: 1px solid #e7e9fc; */
+}
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -343,7 +346,6 @@ p {
   font-family: 16px;
   font-weight: 400;
   padding-left: 15px;
-  /* margin-bottom: 72px; */
   margin-bottom: 8px;
 }
 .portfolio-div {
