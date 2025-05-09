@@ -296,7 +296,7 @@ p {
   border-radius: 0 0 4px 4px;
   gap: 24px;
 }
-.feature-item-first-item {
+.feature-list li {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
