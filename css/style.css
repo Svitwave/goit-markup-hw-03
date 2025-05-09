@@ -286,7 +286,9 @@ p {
 .features-list {
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
+
 .features-section {
   padding: 120px 0;
 }
