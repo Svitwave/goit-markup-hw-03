@@ -281,9 +281,9 @@ p {
   margin: -1px;
   padding: 0;
   border: 0;
-  clip: rect(0, 0, 0, 0); /* приховує елемент */
   overflow: hidden;
   white-space: nowrap; /* запобігає переносу */
+  clip-path: inset(50%);
 }
 
 /* Картка команди */
@@ -343,6 +343,9 @@ p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   padding-left: 15px;
+  /* margin-bottom: 8px; */
+}
+.portfolio-title-first {
   margin-bottom: 8px;
 }
 .portfolio-div {
