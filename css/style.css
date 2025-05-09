@@ -172,7 +172,6 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 1158px;
-  border-bottom: 1px solid var(--cornflower);
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -271,7 +270,8 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
