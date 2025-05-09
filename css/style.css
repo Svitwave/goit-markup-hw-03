@@ -260,6 +260,9 @@ p {
 .features-section {
   padding: 120px 0;
 }
+.features-list li {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .section-title {
   font-size: 36px;
@@ -281,7 +284,6 @@ p {
   overflow: hidden;
   white-space: nowrap; /* запобігає переносу */
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
 }
 
 /* Картка команди */
@@ -295,9 +297,6 @@ p {
   padding: 0 5px 0 5px;
   border-radius: 0 0 4px 4px;
   gap: 24px;
-}
-.feature-list li {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title {
