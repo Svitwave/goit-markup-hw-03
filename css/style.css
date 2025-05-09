@@ -290,13 +290,12 @@ p {
   padding: 0 5px 0 5px;
   border-radius: 0 0 4px 4px;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .features-section {
   padding: 120px 0;
 }
 .features-list li {
-  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title {
