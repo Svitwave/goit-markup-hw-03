@@ -205,7 +205,6 @@ p {
   gap: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
 /* Адреса */
@@ -225,7 +224,6 @@ p {
   gap: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 
 /* Контакти */
@@ -343,7 +341,6 @@ p {
 }
 .portfolio-title {
   font-family: Roboto, sans-serif;
-  font-family: 16px;
   font-weight: 400;
   padding-left: 15px;
   margin-bottom: 8px;
