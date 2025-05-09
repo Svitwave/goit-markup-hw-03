@@ -270,8 +270,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
-  /* margin-bottom: 72px; */
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .visually-hidden {
@@ -340,10 +339,12 @@ p {
   padding-left: 15px;
 }
 .portfolio-title {
+  font-family: Roboto, sans-serif;
   font-family: 16px;
   font-weight: 400;
   padding-left: 15px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin-bottom: 8px;
 }
 .portfolio-div {
   padding: 32px 16px;
