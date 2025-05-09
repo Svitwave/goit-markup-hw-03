@@ -280,6 +280,7 @@ p {
   border: 0;
   overflow: hidden;
   white-space: nowrap; /* запобігає переносу */
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
 }
 
@@ -296,7 +297,7 @@ p {
   gap: 24px;
 }
 .feature-item-first-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title {
