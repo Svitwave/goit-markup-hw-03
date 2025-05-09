@@ -343,7 +343,7 @@ p {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   padding-left: 15px;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
 }
 .portfolio-title-first {
   margin-bottom: 8px;
@@ -379,9 +379,7 @@ p {
   width: 100%;
   padding: 100px 0;
 }
-/* .footer-info {
-  padding: 32px 20px;
-} */
+
 .page-footer .web-studio-logo {
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
