@@ -324,7 +324,7 @@ p {
 }
 
 .features-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -333,9 +333,7 @@ p {
 }
 
 .feature-title {
-  /* display: flex; */
   text-align: center;
-  /* justify-content: center; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -365,6 +363,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
   /* padding-left: 15px; */
 }
 
@@ -413,6 +412,11 @@ p {
   padding: 100px 0;
 }
 
+.web-studio-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .page-footer .web-studio-logo {
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
@@ -422,11 +426,6 @@ p {
   font-weight: 700;
   margin-bottom: 16px;
   color: #4d5ae5;
-}
-
-.web-studio-logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .page-footer .logo-studio {
