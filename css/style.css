@@ -123,7 +123,7 @@ p {
   cursor: pointer;
   color: #ffffff;
 }
-/* Секції */
+/* Перша  секція*/
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -163,7 +163,7 @@ p {
 .logo-studio {
   color: #2e2f42;
 }
-
+/* Хедер */
 .page-header .container {
   display: flex;
   justify-content: space-between;
@@ -234,7 +234,7 @@ p {
 .contact-link:focus {
   color: #404bbf;
 }
-/* Команда */
+/* Третя секція Команда */
 .team-section {
   padding: 120px;
   background-color: #f4f4fd;
@@ -268,6 +268,7 @@ p {
 }
 
 .visually-hidden {
+  /* Сховати елемент з екрану */
   position: absolute;
   width: 1px;
   height: 1px;
@@ -283,6 +284,7 @@ p {
 .team-card {
   background-color: #ffffff;
 }
+/* Друга секція */
 .features-list {
   display: flex;
   flex-direction: row;
