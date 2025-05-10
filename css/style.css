@@ -168,8 +168,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 1158px; */
-  /* border-bottom: 1px solid #e7e9fc; */
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -207,7 +205,7 @@ p {
 /* Адреса */
 .address {
   font-style: normal;
-  display: flex;
+  /* display: flex; */
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: row;
@@ -245,11 +243,25 @@ p {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
+/* *{
+  outline: 1px solid red;
+} */
+
+.team-list li {
+  text-align: center;
+
+  width: calc((100% - 72px) / 4);
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
 }
 .team-card-first-card {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
   border-radius: 0 0 4px 4px;
 }
 
@@ -299,9 +311,9 @@ p {
 }
 
 .feature-title {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  /* display: flex; */
+  text-align: left;
+  /* justify-content: center; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -311,13 +323,13 @@ p {
 }
 
 .feature-text {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
 }
 
 /* Портфоліо */
@@ -333,7 +345,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 .portfolio-title {
   font-family: Roboto, sans-serif;
@@ -348,7 +360,7 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 .portfolio-list {
   display: flex;
@@ -364,7 +376,7 @@ p {
   width: calc((100% - 48px) / 3);
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
