@@ -242,17 +242,15 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   gap: 24px;
-  /* padding-top: 40px;
-  padding-bottom: 40px; */
 }
 /* *{
   outline: 1px solid red;
 } */
 
 .team-list li {
-  text-align: center;
-
+  /* text-align: center; */
   width: calc((100% - 72px) / 4);
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -261,7 +259,6 @@ p {
   border-bottom: 1px solid #ddd;
 }
 .team-card-first-card {
-  /* width: calc((100% - 72px) / 4); */
   border-radius: 0 0 4px 4px;
 }
 
@@ -309,10 +306,18 @@ p {
 .features-list li {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.features-title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-bottom: 8px;
+}
 
 .feature-title {
   /* display: flex; */
-  text-align: left;
+  text-align: center;
   /* justify-content: center; */
   font-weight: 500;
   font-size: 20px;
@@ -323,13 +328,10 @@ p {
 }
 
 .feature-text {
-  /* display: flex; */
-  /* justify-content: center; */
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* padding: 0px 0px 32px 0px; */
 }
 
 /* Портфоліо */
